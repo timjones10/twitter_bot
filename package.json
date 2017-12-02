@@ -1,0 +1,14 @@
+{
+  "name": "tbot",
+  "version": "1.0.0",
+  "description": "test tbot in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "TJ",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
