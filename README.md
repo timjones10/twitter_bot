@@ -6,6 +6,10 @@ Twitter Bot which tweets two lines of John Milton's Paradise Lost an hour
 
 Visit the twitter page to see the program's output: https://twitter.com/epicblankverse
 
+To get something similar up and running:
+
+Clone the repo - add a config file with API keys and Access Tokens for your chosen Twitter Account, update with your logic and get the bot tweeting.
+
 ## Built With
 
 * [npm](https://www.npmjs.com/) - Package Manager
