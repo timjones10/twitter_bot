@@ -8,19 +8,19 @@ var T = new Twit(config);
 
 
 // this is the function to welcome followers
-var stream = T.stream('user');
-
-stream.on('follow', followed);
-
-function followed(eventMsg) {
-  var name = eventMsg.source.name;
-  var screenName = eventMsg.source.screen_name;
-  tweetIt('@' + screenName + 'Welcome to Paradise! (Lost)');
-}
+// var stream = T.stream('user');
+//
+// stream.on('follow', followed);
+//
+// function followed(eventMsg) {
+//   var name = eventMsg.source.name;
+//   var screenName = eventMsg.source.screen_name;
+//   tweetIt('@' + screenName + 'Welcome to Paradise! (Lost)');
+// }
 
 // this generates two lines of paradise_lost from the text file
 
-var count = -2;
+var count = 0;
 
 function getLines() {
   increment_count();
