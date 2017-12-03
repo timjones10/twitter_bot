@@ -54,4 +54,4 @@ function tweetIt(txt) {
 
 //this is the interval function
 
-setInterval(function(){tweetIt(getLines());},1000*600);
+setInterval(function(){tweetIt(getLines());},1000*3600);
